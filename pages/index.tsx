@@ -24,7 +24,7 @@ export default function Index({ posts }) {
     <Page>
       <div className={styles.container}>
         <Head>
-          <meta name="description" content="记录思考，让事情持续正确" />
+          <meta name="description" content="Overthinking's Blog - 记录思考，让事情持续正确" />
           <meta name="keywords" content="Overthinking" />
           <link rel="icon" href={`${process.env.STATIC_URL || ''}/favicon.ico`} />
         </Head>
