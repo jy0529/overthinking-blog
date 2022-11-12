@@ -1,0 +1,13 @@
+.profile {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile h1 {
+    letter-spacing: 5px;
+}
+
+.profile  p {
+    letter-spacing: 4px;
+}

@@ -1,0 +1,50 @@
+.container {
+  max-width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.postsWrapper {
+  margin-top: 30px;
+}
+
+.postsContent {
+  padding-left: 0;
+}
+
+.postsLink {
+  display: flex;
+  align-items: center;
+  margin: 24px 0;
+}
+
+.postsTitle {
+  color: var(--link-color);
+  position: relative;
+  color: var(--link-color);
+  font: bold 19px/1.7 "Helvetica Neue", helvetica, Arial, sans-serif;
+}
+
+.postsTitle::after {
+  content: '';
+  position: relative;
+  left: 0;
+  bottom: -2px;
+  display: block;
+  width: 0;
+  text-align: center;
+  height: 2px;
+  background-color: #0000ff;
+  transition: width ease-in .3s;
+}
+
+.postsTitle:hover::after {
+  width: 100%;
+}
+
+.postsDate {
+  max-width: 200px;
+  min-width: 88px;
+  margin-left: auto;
+  text-align: right;
+}

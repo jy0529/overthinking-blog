@@ -1,0 +1,14 @@
+component: website
+name: website-uuc2yQSiex
+org: '1252131755'
+app: overthinking-blog
+stage: prod
+inputs:
+  region: ap-guangzhou
+  src:
+    error: index.html
+    exclude:
+      - .env
+    index: index.html
+    src: ./out
+  bucketName: overthinking-blog-bucket
