@@ -1,6 +1,11 @@
 {
     "posts": [
         {
+            "id": "serverless-beginning",
+            "date": "2022-11-07",
+            "title": "Serverless 初学者之扫盲篇"
+        },
+        {
             "id": "e2e-test-think",
             "date": "2022-08-22",
             "title": "UI 自动化测试之 \"织网\""
